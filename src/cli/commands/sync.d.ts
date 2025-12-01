@@ -1,0 +1,1 @@
+//# sourceMappingURL=sync.d.ts.map

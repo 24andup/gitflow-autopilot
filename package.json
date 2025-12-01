@@ -1,0 +1,60 @@
+{
+  "name": "gitflow-autopilot",
+  "version": "0.1.0",
+  "description": "Git branch syncing on autopilot",
+  "main": "dist/index.js",
+  "bin": {
+    "gitflow-autopilot": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24andup/gitflow-autopilot.git"
+  },
+  "keywords": [
+    "git",
+    "gitflow",
+    "branch-sync",
+    "automation",
+    "devops",
+    "ci-cd"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "type": "commonjs",
+  "files": [
+    "dist/**/*",
+    "templates/**/*"
+  ],
+  "bugs": {
+    "url": "https://github.com/24andup/gitflow-autopilot/issues"
+  },
+  "homepage": "https://github.com/24andup/gitflow-autopilot#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1",
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "ora": "^9.0.0",
+    "prompts": "^2.4.2",
+    "simple-git": "^3.30.0",
+    "yaml": "^2.8.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.1",
+    "@types/prompts": "^2.4.9",
+    "@typescript-eslint/eslint-plugin": "^8.48.0",
+    "@typescript-eslint/parser": "^8.48.0",
+    "eslint": "^9.39.1",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5",
+    "typescript": "^5.9.3"
+  }
+}

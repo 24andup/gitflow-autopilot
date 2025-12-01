@@ -1,0 +1,11 @@
+src/
+tests/
+*.test.ts
+*.spec.ts
+tsconfig.json
+.eslintrc.js
+.gitignore
+.github/
+coverage/
+*.md
+!README.md
